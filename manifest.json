@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Slangtionary",
+    "version": "1.0",
+    "description": "Fr fr the best looker upper no cap",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["./main.js"]
+        }
+    ]
+}
